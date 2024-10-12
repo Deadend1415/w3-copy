@@ -1,0 +1,57 @@
+body{
+  margin: 0px;
+  background-color: #cfb0b0;
+}
+
+.image {
+  width: 50%;
+  float: left;
+}
+
+.ban{
+ width: 100%;
+}
+
+.ban img{
+  width: 100%
+
+}
+.img-ban{
+  display: none;
+}
+
+.ban{
+  display: none;
+}
+h1{
+   text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-ban {
+    display: block;
+    width: 100%;
+  }
+  .image {
+    width: 30%;
+    height: 20%
+    float: left;
+  }
+.boy{
+  clear: left;
+  padding: 1%;
+  background-color: #dee4e9;
+  border-radius: 10px;
+  margin-left:1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.ban{
+  display: block;
+  margin-bottom: 0px;
+}
+.head{
+  padding-left: 35%;
+}

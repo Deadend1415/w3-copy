@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .btn-group .button {
+    background-color: #282a35;
+    color: rgb(255, 255, 255);
+    font: 30px Fantasy;
+    cursor: pointer;
+    border: none;
+  }
+  
+  table {
+    width: 100%;
+    background-color: #282a35;
+  }
+  
+  .btn-group .button:hover {
+    background-color: black;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #d8d2d2;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar p{
+    font-family: sans-serif;
+    padding: 16px
+  }
+  
+  .sidebar p:hover{
+    background-color: #c1c1c1;
+    cursor: pointer;
+  }
+  
+  .main{
+    margin-left: 200px;
+    font-family: verdana;
+    font-size: 20px;
+    
+  }
+  
+  .b1{
+    background-color: #d9eee1;
+    padding: 10px;
+  }
+  
+  .images{
+   
+   position: absolute;
+   left: auto;
+   right: 0%;
+   max-width: 100%;
+    height: auto;
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+  }
+
+  .button{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #04aa6d;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    background-color:#049560
+  }
+  
+  .button1{
+    position: relative;
+    left: 1%;
+  }
+  
+  .button2{
+    position: relative;
+    left: 50%;
+    color: #fff;
+  }
+  
